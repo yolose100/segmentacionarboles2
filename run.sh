@@ -1,0 +1,1 @@
+python train.py --vtf --pretrained imagenet --loss-on-center --batch-size 3 --optim adamw --learning-rate 5e-4 --lr-scheduler noam --basenet vgg16 --max-epochs 300 --data-fold fold0 --log-dir runs/fold0 
